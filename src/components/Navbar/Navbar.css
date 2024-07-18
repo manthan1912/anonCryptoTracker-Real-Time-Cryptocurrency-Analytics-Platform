@@ -1,0 +1,84 @@
+.navbar .logo{
+    /* max-width: 200px; */
+    width: max(6vw,100px);
+}
+
+.navbar{
+    display: flex; 
+    
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 5%;
+    color : #ddd;
+    border-bottom: 2px solid #3c3c3c;
+}
+
+.navbar ul{
+    display: flex; 
+    gap : 40px;
+    list-style: none;
+}
+
+.navbar ul li{
+    cursor: pointer;
+}
+.nav-right{
+    display : flex;
+    gap : max(1vw,12px);
+    align-items: center;
+}
+.navbar select{
+    border: 2px solid white;
+    
+    padding: 5px 8px;
+    border-radius: 5px;
+    background : transparent;
+
+    color: #fff;
+    cursor: pointer;
+}
+.navbar option{
+    background-color: #09005c;
+    color: #fff;
+    cursor: pointer;
+}
+
+.navbar button{
+    display: flex;
+    align-items: center;
+    border : none;
+    gap : 10px;
+    padding: 5px 25px;
+    font-size: 15px;
+    border-radius: 15px;
+    background : white;
+    color: #393939;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.navbar button img{
+    width: 13px;
+}
+
+@media (max-width: 900px) {
+    .navbar{
+         padding: 20px 8%;
+    }
+    .navbar button {
+         font-size: 12px;
+         padding: 5px 15px;
+         gap : 8px;
+    }
+}
+@media (max-width: 768px) {
+    .navbar{
+         padding: 20px 5%;
+    }
+    .navbar ul{
+        display: none;
+    }
+    .navbar button img{
+         width: 12px;
+    }
+}
