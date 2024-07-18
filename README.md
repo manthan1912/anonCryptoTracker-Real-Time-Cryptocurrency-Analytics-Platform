@@ -1,7 +1,7 @@
 # anonCryptoTracker
 
 ## Project Overview
-CryptoPriceTracker is a real-time cryptocurrency tracking web application that provides up-to-date information on cryptocurrency prices, market capitalization, and trends. Built with React, this project utilizes modern web technologies to deliver a seamless and interactive user experience.
+anonCryptoTracker is a real-time cryptocurrency tracking web application that provides up-to-date information on cryptocurrency prices, market capitalization, and trends. Built with React, this project utilizes modern web technologies to deliver a seamless and interactive user experience.
 
 ## Features
 - Real-time cryptocurrency price updates
