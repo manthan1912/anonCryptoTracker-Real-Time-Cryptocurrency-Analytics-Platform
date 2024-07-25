@@ -47,5 +47,7 @@ This command runs the app in the development mode.\
 Open [http://localhost:5174](http://localhost:5174) to view it in your browser.
 
 ## Video Demo
-Will come soon..
+[[Watch the video]](https://github.com/manthan1912/anonCryptoTracker-Real-Time-Cryptocurrency-Analytics-Platform/blob/main/demo.mov)
+
+
 
